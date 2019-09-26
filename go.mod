@@ -1,0 +1,52 @@
+module github.com/baijuparameswaran/redis-operator
+
+require (
+	github.com/beorn7/perks v0.0.0-20160804104726-4c0e84591b9a
+	github.com/davecgh/go-spew v0.0.0-20161029205726-346938d642f2
+	github.com/ghodss/yaml v0.0.0-20170327235444-0ca9ea5df545
+	github.com/go-redis/redis v0.0.0-20180531103225-83fb42932f61
+	github.com/gogo/protobuf v0.0.0-20180202161900-1adfc126b415
+	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
+	github.com/golang/groupcache v0.0.0-20180513044358-24b0969c4cb7
+	github.com/golang/protobuf v0.0.0-20180125214303-925541529c1f
+	github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c
+	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
+	github.com/googleapis/gnostic v0.0.0-20170905172749-ee43cbb60db7
+	github.com/gregjones/httpcache v0.0.0-20190212212710-3befbb6ad0cc
+	github.com/hashicorp/golang-lru v0.0.0-20180201235237-0fb14efe8c47
+	github.com/imdario/mergo v0.0.0-20180119215619-163f41321a19
+	github.com/json-iterator/go v0.0.0-20180701071628-ab8a2e0c74be
+	github.com/matttproud/golang_protobuf_extensions v0.0.0-20160423173617-3247c84500bf
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+	github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742
+	github.com/opentracing/opentracing-go v0.0.0-20170426175816-1949ddbfd147
+	github.com/pborman/uuid v0.0.0-20170612153648-e790cca94e6c
+	github.com/petar/GoLLRB v0.0.0-20130427215148-53be0d36a84c
+	github.com/peterbourgon/diskv v0.0.0-20190425080511-0be1b92a6df0
+	github.com/pmezard/go-difflib v0.0.0-20160110105554-792786c7400a
+	github.com/prometheus/client_golang v0.0.0-20180629055134-d6a9817c4afc
+	github.com/prometheus/client_model v0.0.0-20171117100541-99fa1f4be8e5
+	github.com/prometheus/common v0.0.0-20180110214958-89604d197083
+	github.com/prometheus/procfs v0.0.0-20180212145926-282c8707aa21
+	github.com/sirupsen/logrus v0.0.0-20180311225137-c155da19408a
+	github.com/spf13/pflag v0.0.0-20170508184408-e57e3eeb33f7
+	github.com/spotahome/kooper v0.0.0-20190119104833-6fce4a4c74ed
+	github.com/stretchr/objx v0.0.0-20180106011353-facf9a85c22f
+	github.com/stretchr/testify v0.0.0-20180609115518-f35b8ab0b5a2
+	golang.org/x/crypto v0.0.0-20180127211104-1875d0a70c90
+	golang.org/x/net v0.0.0-20180202180947-2fb46b16b8dd
+	golang.org/x/oauth2 v0.0.0-20180207181906-543e37812f10
+	golang.org/x/sync v0.0.0-20171101214715-fd80eb99c8f6
+	golang.org/x/sys v0.0.0-20180202135801-37707fdb30a5
+	golang.org/x/text v0.0.0-20171227012246-e19ae1496984
+	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2
+	google.golang.org/appengine v0.0.0-20160929203117-150dc57a1b43
+	gopkg.in/inf.v0 v0.0.0-20150911125757-3887ee99ecf0
+	gopkg.in/yaml.v2 v2.0.0-20180109114331-d670f9405373
+	k8s.io/api v0.0.0-20190325185214-7544f9db76f6
+	k8s.io/apiextensions-apiserver v0.0.0-20190325193401-d18a370cab86
+	k8s.io/apimachinery v0.0.0-20190223001710-c182ff3b9841
+	k8s.io/client-go v0.0.0-20190325185812-c4d6791c962c
+	k8s.io/kube-openapi v0.0.0-20180201014056-275e2ce91dec
+	k8s.io/kubernetes v0.0.0-20180627195542-91e7b4fd31fc
+)
